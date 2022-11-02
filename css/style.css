@@ -11,7 +11,7 @@ body {
 .container {
     display: flex;
     height: 100%;
-    background-color: salmon;
+    background-color: #7FFFD4;
 }
 
 .grid {
@@ -25,10 +25,10 @@ body {
 
 .cell {
     border: 2px solid black;
-    height: calc(100% / 8);
-    width: calc(100% / 8);
+    height: calc(100% / 10);
+    width: calc(100% / 10);
 }
 
 .cell.active {
-    background-color: gold;
+    background-color: rgb(13, 135, 197);
 }
